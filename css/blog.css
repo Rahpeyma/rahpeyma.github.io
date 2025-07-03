@@ -91,10 +91,11 @@
     background-position: center;
 }
 
-.quantum { background: linear-gradient(rgba(168, 182, 89, 0.7), rgba(168, 182, 100, 0.7)), url('https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-4.0.3') center/cover; }
-.ai { background: linear-gradient(rgba(52, 152, 219, 0.7), rgba(52, 152, 219, 0.7)), url('https://images.unsplash.com/photo-1677442135722-5f063d49c4a5?ixlib=rb-4.0.3') center/cover; }
-.em { background: linear-gradient(rgba(231, 76, 60, 0.7), rgba(231, 76, 60, 0.7)), url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3') center/cover; }
-.physics { background: linear-gradient(rgba(46, 204, 113, 0.7), rgba(46, 204, 113, 0.7)), url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3') center/cover; }
+.quantum { background: url('../FOD.jpg') center/cover; }
+.ai { background:  url('../alan-turing.jpg') center/cover; }
+.em { background:  url('../Faraday.png') center/cover; }
+.physics { background: url('../Max-Planck.jpg') center/cover; }
+.statistics { background: url('../Boltzmann.jpg') center/cover; }
 
 .card-content {
     padding: 1.5rem;
@@ -114,7 +115,8 @@
 .quantum-cat { background-color: rgba(155, 89, 182, 0.2); color: #8e44ad; }
 .ai-cat { background-color: rgba(52, 152, 219, 0.2); color: #2980b9; }
 .em-cat { background-color: rgba(231, 76, 60, 0.2); color: #c0392b; }
-.physics-cat { background-color: rgba(46, 204, 113, 0.2); color: #27ae60; }
+.physics-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
+.statistics-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
 
 .card-content h3 {
     margin-bottom: 10px;

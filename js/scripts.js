@@ -2,7 +2,7 @@
 const lectures = [
     {
         id: 1,
-        title: "Quantum Entanglement Explained",
+        title: "Introduction to Quantum",
         category: "quantum",
         categoryName: "Quantum Physics",
         description: "Dive into the mysterious world of quantum entanglement and its implications for quantum computing.",
@@ -53,7 +53,16 @@ const lectures = [
     description: "Examining the ethical considerations and societal impacts of artificial intelligence.",
     // duration: "42 min",
     date: "Sep 7, 2023"
-}
+},
+{
+    id: 7,
+    title: "Master Equation",
+    category: "statistics",
+    categoryName: "Statistics",
+    description: "Examining the ethical considerations and societal impacts of artificial intelligence.",
+    // duration: "42 min",
+    date: "Sep 7, 2023"
+},
 ];
 
 // Function to generate lecture cards
@@ -77,9 +86,13 @@ function generateLectureCards(lecturesToShow) {
         </div>
         `;
         card.addEventListener('click', () => {
+            if(lecture.id === 1) {
+                window.location.href = 'Intro-Quantum.html';
+            }
             if(lecture.id === 2) {
                 window.location.href = 'neural-networks.html';
-            } else {
+            }
+            else {
                 // For other lectures, you can add links later
                 alert(`Opening lecture: ${lecture.title}`);
             }
