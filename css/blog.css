@@ -1,0 +1,189 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(80, 60, 44, 0.9), rgba(80, 70, 44, 0.8)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3') center/cover no-repeat;
+    color: rgb(201, 200, 200);
+    text-align: center;
+    padding: 5rem 1rem;
+    margin-bottom: 3rem;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+}
+
+/* Category Filter */
+.category-filter {
+    background-color: rgb(117, 104, 75);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+.category-filter h3 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+    border-bottom: 2px solid var(--light);
+    padding-bottom: 0.5rem;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category {
+    background-color: var(--light);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.category:hover, .category.active {
+    background-color: var(--secondary);
+    color: rgb(102, 98, 98);
+}
+
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+    margin-bottom: 3rem;
+}
+
+/* Lectures Grid */
+.lectures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 2rem;
+}
+
+.lecture-card {
+    background-color: rgb(200, 219, 147);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lecture-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.quantum { background: linear-gradient(rgba(168, 182, 89, 0.7), rgba(168, 182, 100, 0.7)), url('https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-4.0.3') center/cover; }
+.ai { background: linear-gradient(rgba(52, 152, 219, 0.7), rgba(52, 152, 219, 0.7)), url('https://images.unsplash.com/photo-1677442135722-5f063d49c4a5?ixlib=rb-4.0.3') center/cover; }
+.em { background: linear-gradient(rgba(231, 76, 60, 0.7), rgba(231, 76, 60, 0.7)), url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3') center/cover; }
+.physics { background: linear-gradient(rgba(46, 204, 113, 0.7), rgba(46, 204, 113, 0.7)), url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3') center/cover; }
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.lecture-category {
+    display: inline-block;
+    background-color: var(--light);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.quantum-cat { background-color: rgba(155, 89, 182, 0.2); color: #8e44ad; }
+.ai-cat { background-color: rgba(52, 152, 219, 0.2); color: #2980b9; }
+.em-cat { background-color: rgba(231, 76, 60, 0.2); color: #c0392b; }
+.physics-cat { background-color: rgba(46, 204, 113, 0.2); color: #27ae60; }
+
+.card-content h3 {
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+.card-content p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.lecture-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-size: 0.85rem;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: rgb(206, 162, 112);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    align-self: start;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+    border-bottom: 2px solid var(--light);
+    padding-bottom: 0.5rem;
+}
+
+.recent-lectures {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recent-item {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.recent-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.recent-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.recent-content h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.recent-content .category {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+}
