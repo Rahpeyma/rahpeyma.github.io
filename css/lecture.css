@@ -1,6 +1,6 @@
 /* Lecture Hero */
 .lecture-hero {
-    background: linear-gradient(rgba(185, 147, 41, 0.9), rgba(65, 60, 61, 0.8)), url('https://images.unsplash.com/photo-1677442135133-33d364e7d1c1?ixlib=rb-4.0.3') center/cover no-repeat;
+    background: linear-gradient(rgba(129, 129, 129, 0.9), rgba(46, 46, 46, 0.8)), url('../albert-einstein.jpg') center/cover no-repeat;
     color: rgb(194, 194, 194);
     padding: 4rem 1rem;
     text-align: center;

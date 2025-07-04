@@ -5,7 +5,7 @@ const lectures = [
         title: "Introduction to Quantum",
         category: "quantum",
         categoryName: "Quantum Physics",
-        description: "Dive into the mysterious world of quantum entanglement and its implications for quantum computing.",
+        description: "Basic Quantum principles from classical Mechanics to Quantum Mechanics.",
         // duration: "45 min",
         date: "Oct 12, 2023"
     },
