@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: url('../Tehran.jpg') center/cover no-repeat;
+    background: url('../Images/Tehran.jpg') center/cover no-repeat;
     color: rgb(201, 200, 200);
     text-align: center;
     padding: 5rem 1rem;
@@ -91,11 +91,11 @@
     background-position: center;
 }
 
-.quantum { background: url('../FOD.jpg') center/cover; }
-.ai { background:  url('../alan-turing.jpg') center/cover; }
-.em { background:  url('../Faraday.png') center/cover; }
-.physics { background: url('../Max-Planck.jpg') center/cover; }
-.statistics { background: url('../Boltzmann.jpg') center/cover; }
+.quantum { background: url('../Images/FOD.jpg') center/cover; }
+.ai { background:  url('../Images/alan-turing.jpg') center/cover; }
+.em { background:  url('../Images/Faraday.png') center/cover; }
+.physics { background: url('../Images/Max-Planck.jpg') center/cover; }
+.statistics { background: url('../Images/Boltzmann.jpg') center/cover; }
 
 .card-content {
     padding: 1.5rem;

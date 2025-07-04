@@ -187,3 +187,54 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // ... existing lecture generation code ...
 });
+
+// scripts.js - Mobile sidebar functionality for lecture pages
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Mobile sidebar functionality
+    const mobileMenuBtn = document.createElement('button');
+    mobileMenuBtn.className = 'mobile-menu-btn';
+    mobileMenuBtn.innerHTML = '<i class="fas fa-book-open"></i> Lectures';
+    document.body.appendChild(mobileMenuBtn);
+    
+    const overlay = document.createElement('div');
+    overlay.className = 'mobile-sidebar-overlay';
+    document.body.appendChild(overlay);
+    
+    const sidebar = document.querySelector('.sidebar');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+    });
+    
+    overlay.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+    
+    // Close sidebar when clicking on links
+    const sidebarLinks = document.querySelectorAll('.sidebar a');
+    sidebarLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+    });
+    
+    // Keyboard shortcut for mobile menu (Alt+M)
+    document.addEventListener('keydown', (e) => {
+        if (e.altKey && e.key === 'm') {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
+    });
+    
+    // Auto-close sidebar when resizing to desktop
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 900) {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        }
+    });
+});
