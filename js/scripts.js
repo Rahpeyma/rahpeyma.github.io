@@ -37,6 +37,16 @@ const lectures = [
         date: "Oct 16, 2023",
         page: "QuantumTH.html"
     },
+        {
+        id: 3,
+        title: "Introduction to Electromagnetics",
+        category: "em",
+        categoryName: "Electromagnetics",
+        description: "The fundamental problem a theory of electromagnetism hopes to solve is this: I hold up a bunch of electric charges here; what happens to some other charge, over there?",
+        // duration: "58 min",
+        date: "Oct 16, 2023",
+        page:  "Elec.html"
+    },
    
 ];
 
