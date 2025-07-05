@@ -79,7 +79,6 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .lecture-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -94,7 +93,7 @@
 .quantum { background: url('../Images/FOD.jpg') center/cover; }
 .ai { background:  url('../Images/alan-turing.jpg') center/cover; }
 .em { background:  url('../Images/Faraday.png') center/cover; }
-.physics { background: url('../Images/Max-Planck.jpg') center/cover; }
+.la { background: url('../Images/davyd-gilbert-1.png') center/cover; }
 .statistics { background: url('../Images/Boltzmann.jpg') center/cover; }
 
 .card-content {
@@ -115,7 +114,7 @@
 .quantum-cat { background-color: rgba(155, 89, 182, 0.2); color: #8e44ad; }
 .ai-cat { background-color: rgba(52, 152, 219, 0.2); color: #2980b9; }
 .em-cat { background-color: rgba(231, 76, 60, 0.2); color: #c0392b; }
-.physics-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
+.la-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
 .statistics-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
 
 .card-content h3 {
