@@ -60,13 +60,13 @@ const lectures = [
 
     {
         id: 5,
-        title: "Non-Hermitian",
+        title: "Non-Hermitian Operators",
         category: "la",
         categoryName: "Linear Algebra",
         description: "In physics, non-Hermitian refers to a mathematical operator or Hamiltonian that is not equal to its adjoint (or conjugate transpose).",
         // duration: "42 min",
         date: "May 7, 2025",
-        page: "la.html"
+        page: "NonHermitian.html"
 },
    
 ];
