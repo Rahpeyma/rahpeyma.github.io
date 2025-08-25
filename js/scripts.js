@@ -79,6 +79,17 @@ const lectures = [
         date: "Aug 13, 2025",
         page: "StatisticalM.html"
 },
+
+    {
+        id: 7,
+        title: "Logic gates",
+        category: "cs",
+        categoryName: "Computer Science",
+        description: "Computers have revolutionised the world in well within a century. Dozens of computer processors have been built for every inhabitant of this earth, and this number is rapidly increasing.",
+        // duration: "42 min",
+        date: "Aug 26, 2025",
+        page: "LogicGates.html"
+},
    
 ];
 
