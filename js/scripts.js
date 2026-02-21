@@ -76,7 +76,7 @@ const lectures = [
         categoryName: "Statistics",
         description: "Statistical mechanics is a mathematical framework that applies statistical methods and probability theory to large assemblies of microscopic entities.",
         // duration: "42 min",
-        date: "Aug 13, 2025",
+        date: "Feb 21, 2026",
         page: "StatisticalM.html"
 },
 
