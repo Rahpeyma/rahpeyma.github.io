@@ -54,7 +54,7 @@ const lectures = [
         categoryName: "Statistics",
         description: "Stochastic processes are widely used as mathematical models of systems and phenomena that appear to vary in a random manner.",
         // duration: "42 min",
-        date: "Feb 20, 2026",
+        date: "Feb 21, 2026",
         page: "Stochastics.html"
 },
 
