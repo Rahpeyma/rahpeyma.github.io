@@ -91,6 +91,17 @@ const lectures = [
         page: "LogicGates.html"
 },
    
+    {
+        id: 8,
+        title: "Theoritical Machine Learning",
+        category: "cs",
+        categoryName: "Computer Science",
+        description: "Computers have revolutionised the world in well within a century. Dozens of computer processors have been built for every inhabitant of this earth, and this number is rapidly increasing.",
+        // duration: "42 min",
+        date: "Feb 22, 2025",
+        page: "TheoriticalML.html"
+},
+
 ];
 
 // Function to sort lectures by date (newest first)
