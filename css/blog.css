@@ -119,6 +119,7 @@
 .la-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
 .statistics-cat { background-color: rgba(46, 204, 113, 0.2); color: #19723e; }
 .cs-cat { background-color: rgba(46, 204, 113, 0.2); color: #05727e; }
+.co-cat { background-color: rgba(46, 204, 113, 0.2); color: #05727e; }
 
 .card-content h3 {
     margin-bottom: 10px;
